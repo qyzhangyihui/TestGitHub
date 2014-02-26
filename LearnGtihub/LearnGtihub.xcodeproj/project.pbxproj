@@ -21,6 +21,7 @@
 		000EB5BB18BD90C000B099B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000EB59D18BD90C000B099B0 /* UIKit.framework */; };
 		000EB5C318BD90C000B099B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 000EB5C118BD90C000B099B0 /* InfoPlist.strings */; };
 		000EB5C518BD90C000B099B0 /* LearnGtihubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 000EB5C418BD90C000B099B0 /* LearnGtihubTests.m */; };
+		000EB5CF18BD992200B099B0 /* libidn.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 000EB5CE18BD992200B099B0 /* libidn.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		000EB5C018BD90C000B099B0 /* LearnGtihubTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LearnGtihubTests-Info.plist"; sourceTree = "<group>"; };
 		000EB5C218BD90C000B099B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		000EB5C418BD90C000B099B0 /* LearnGtihubTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnGtihubTests.m; sourceTree = "<group>"; };
+		000EB5CE18BD992200B099B0 /* libidn.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libidn.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				000EB59C18BD90C000B099B0 /* CoreGraphics.framework in Frameworks */,
+				000EB5CF18BD992200B099B0 /* libidn.a in Frameworks */,
 				000EB59E18BD90C000B099B0 /* UIKit.framework in Frameworks */,
 				000EB59A18BD90C000B099B0 /* Foundation.framework in Frameworks */,
 			);
@@ -117,6 +120,7 @@
 				000EB5AB18BD90C000B099B0 /* Main.storyboard */,
 				000EB5AE18BD90C000B099B0 /* ViewController.h */,
 				000EB5AF18BD90C000B099B0 /* ViewController.m */,
+				000EB5CE18BD992200B099B0 /* libidn.a */,
 				000EB5B118BD90C000B099B0 /* Images.xcassets */,
 				000EB5A018BD90C000B099B0 /* Supporting Files */,
 			);
@@ -381,6 +385,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LearnGtihub/LearnGtihub-Prefix.pch";
 				INFOPLIST_FILE = "LearnGtihub/LearnGtihub-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/zhangyihui/Desktop/testGet/TestGitHub/LearnGtihub/LearnGtihub,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,6 +402,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LearnGtihub/LearnGtihub-Prefix.pch";
 				INFOPLIST_FILE = "LearnGtihub/LearnGtihub-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/zhangyihui/Desktop/testGet/TestGitHub/LearnGtihub/LearnGtihub,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -460,6 +472,7 @@
 				000EB5CA18BD90C000B099B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		000EB5CB18BD90C000B099B0 /* Build configuration list for PBXNativeTarget "LearnGtihubTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +481,7 @@
 				000EB5CD18BD90C000B099B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
