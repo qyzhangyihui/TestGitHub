@@ -18,6 +18,14 @@
 {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor greenColor];
+    self.view.backgroundColor = [UIColor greenColor];
+
+    self.view.backgroundColor = [UIColor greenColor];
+
+    self.view.backgroundColor = [UIColor greenColor];
+
+    self.view.backgroundColor = [UIColor greenColor];
+
     NSLog(@"abc");
 	// Do any additional setup after loading the view, typically from a nib.
 }
